@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const taskScheme = new Schema({
-  taskName: String,
+  name: String,
   isDone: Boolean,
 });
 

@@ -19,7 +19,7 @@ mongoose
     console.log("db ok");
   })
   .catch((err) => {
-    console.log("db error");
+    console.log("db error", err);
   });
 
 app.listen(port, () => {
